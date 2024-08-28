@@ -1,0 +1,407 @@
+*{
+    max-width: auto;
+    box-sizing: border-box;
+}
+
+.nav1left{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav1{
+    text-decoration: none;
+    color: rgb(102, 100, 100);
+    font-size: 13px;
+}
+
+.wishntrack{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav11{
+    text-decoration: none;
+    color: rgb(102, 100, 100);
+    font-size: 13px;
+    border-right: 1px solid rgb(243, 238, 238);
+    padding-right: 10px;
+}
+
+.nav111{
+    margin-left: -10px;
+    text-decoration: none;
+    color: rgb(102, 100, 100);
+    font-size: 13px;
+    border-right: 1px solid rgb(243, 238, 238);
+    padding-right: 10px;
+}
+
+.nav1icon{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    padding-left: 10px;
+}
+
+.socialicon1:link {
+    color: grey;
+    font-size: 13px;
+}
+
+.socialicon1:hover {
+    color: red;
+}
+
+.nav1right{
+    display: flex;
+}
+
+.nav1parent{
+    display: flex;
+    margin-top: -15px;
+    gap: 500px;
+    justify-content: center;
+}
+
+.hr1{
+    border: 1px solid rgb(243, 238, 238);
+    margin-top: -8px;
+}
+
+.nav2{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;   
+}
+
+.nav22:link {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav22:visited {
+    color: black;
+}
+
+.nav22:hover {
+    color: red;
+}
+
+.nav23{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav233:link {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.nav233:visited {
+    color: black;
+}
+
+.nav233:hover {
+    color: red;
+}
+
+.nav2text{
+    display: flex;
+    gap: 60px;
+}
+
+.logo{
+    margin-left: 50px;
+    margin-top: 7px;
+}
+
+.nav2parent{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    background-color: white;
+    padding: 10px;
+    z-index: 1;
+}
+
+.saleparent{
+    width: 100%;
+    height: 40px;
+    padding: 12px;
+    background-color: black;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.sale{
+    color: white;
+    font-size: 13px;
+}
+
+.shop{
+    color: gold;
+    text-decoration: underline;
+    font-size: 13px;
+}
+
+.shop:hover {
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.nav22page {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav22page:visited {
+    color: black;
+}
+
+.nav22page:hover {
+    color: red;
+}
+
+.pagelist{
+    display: none;
+    position: absolute;
+    width: 140px;
+    height: 130px;
+    padding-left: 10px;
+    padding-top: 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: white;
+    list-style-type: none;
+    font-size: 13px;
+    font-weight: bold;
+    border-top: 3px solid red;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+.pagetodisplay{
+    position: relative;
+    display: block;
+}
+
+.pagetodisplay:hover .pagelist {
+    display: block;
+}
+
+.list3{
+    text-decoration: none;
+    color: black;
+    line-height: 25px;
+}
+
+.list3:hover {
+    color: red;
+    font-size: 15px;
+}
+
+.bloglist{
+    display: none;
+    position: absolute;
+    width: 90px;
+    height: 100px;
+    padding-left: 10px;
+    padding-top: 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: white;
+    list-style-type: none;
+    font-size: 13px;
+    font-weight: bold;
+    border-top: 3px solid red;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+.blogtodisplay{
+    position: relative;
+    display: block;
+}
+
+.blogtodisplay:hover .bloglist {
+    display: block;
+}
+
+.herutext{
+    position: absolute;
+    width: 500px;
+    top: 50%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}
+
+.fashionimages{
+    display: flex;
+    gap: 20px;
+    margin: 0px 235px;
+}
+
+.fashionimage1text{
+    position: absolute;
+    text-align: center;
+    left: 370px;
+    bottom: -250px;
+    color: white;
+
+}
+
+.fashionimage2text{
+    position: absolute;
+    text-align: center;
+    left: 740px;
+    bottom: -250px;
+    color: white;
+}
+
+.fashionimage3text{
+    position: absolute;
+    text-align: center;
+    left: 1110px;
+    bottom: -250px;
+    color: white;
+}
+
+.trendingparent{
+    display: flex;
+    gap: 550px;
+    padding: 20px;
+    border-bottom: 1px solid rgb(243, 238, 238);
+    width: 70%;
+}
+
+.centertrending{
+    display: flex;
+    justify-content: center;
+}
+
+.trending{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.formensec{
+    display: flex;
+    gap: 30px;
+    top: 0px;
+}
+
+.latestparent{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0px 250px;
+}
+
+.latestcontainer1{
+    text-align: center;
+}
+
+.latestcontainer2{
+    text-align: center;
+}
+
+.latestcontainer3{
+    text-align: center;
+}
+
+.latestcontainer4{
+    text-align: center;
+}
+
+.yellowbox{
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    background-color: blanchedalmond;
+}
+
+.yml{
+    text-align: center;
+}
+
+.ymlparent{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0px 250px;
+}
+
+.ymlcontainer1{
+    text-align: center;
+}
+
+.ymlcontainer2{
+    text-align: center;
+}
+
+.ymlcontainer3{
+    text-align: center;
+}
+
+.ymlcontainer4{
+    text-align: center;
+}
+
+.latestnewsbox{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(241, 241, 241);
+}
+
+.latestnewsparent{
+    display: flex;
+    justify-content: center;
+    margin: 0px 235px;
+    gap: 20px;
+}
+
+.latestnews{
+    text-align: center;
+}
+
+.deliveryparentbox{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+}
+
+.blackbox{
+    background-color: rgb(152, 151, 151);
+    width: 100%;
+    height: 500px;
+}
+
+.subscribediv{
+    width: 70%;
+    padding: 50px;
+    border-bottom: 1px solid black;
+    display: flex;
+    margin: 0px 16%;
+}
+
+.icons3flex{
+    display: flex;
+    text-align: center;
+    gap: 10px;
+}
