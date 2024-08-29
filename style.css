@@ -3,6 +3,11 @@
     box-sizing: border-box;
 }
 
+body{
+    margin: 0;
+    padding: 0;
+}
+
 .nav1left{
     list-style-type: none;
     display: flex;
@@ -60,7 +65,7 @@
 
 .nav1parent{
     display: flex;
-    margin-top: -15px;
+    margin-top: -8px;
     gap: 500px;
     justify-content: center;
 }
@@ -242,11 +247,70 @@
 
 .herutext{
     position: absolute;
-    width: 500px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 60%;
     top: 50%;
-    left: 28%;
-    transform: translate(-50%, -50%);
     font-size: 18px;
+}
+
+.fashionbox{
+    text-align: center;
+    margin-left: -700px;
+    top: 50%;
+}
+
+.fashion{
+    font-family: "Dancing Script", sans-serif;
+    font-size: 35px;
+    font-weight: lighter;
+    color: red;
+}
+
+.minimal{
+    font-family: "Lexend", sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+.loremtext{
+    margin-top: 10px;
+    font-size: medium;
+    width: 300px;
+    color: grey;
+}
+
+.shopnowbutton{
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: small;
+    background-color: rgb(35, 33, 33);
+    color: white;
+    padding: 10px 20px;
+}
+
+.previous{
+    text-decoration: none;
+    border: none;
+    background-color: grey;
+    font-weight: lighter;
+    color: white;
+    padding: 30px 15px;
+    opacity: 0.4;
+}
+
+.next{
+    text-decoration: none;
+    border: none;
+    background-color: grey;
+    font-weight: lighter;
+    color: white;
+    padding: 30px 15px;
+    opacity: 0.4;
+    right: 0px;
 }
 
 .fashionimages{
@@ -258,16 +322,15 @@
 .fashionimage1text{
     position: absolute;
     text-align: center;
-    left: 370px;
+    left: 350px;
     bottom: -250px;
     color: white;
-
 }
 
 .fashionimage2text{
     position: absolute;
     text-align: center;
-    left: 740px;
+    left: 700px;
     bottom: -250px;
     color: white;
 }
@@ -275,9 +338,15 @@
 .fashionimage3text{
     position: absolute;
     text-align: center;
-    left: 1110px;
+    left: 1050px;
     bottom: -250px;
     color: white;
+}
+
+.mwbfashion{
+    font-family: "Lexend", sans-serif;
+    font-size: larger;
+    font-weight: bold;
 }
 
 .trendingparent{
@@ -404,4 +473,24 @@
     display: flex;
     text-align: center;
     gap: 10px;
+}
+
+.footer2{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    border-bottom: 1px solid black;
+    width: 70%;
+    margin: 0px 16%;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+
+.footer2text{
+    display: flex;
+    gap: 80px;
+}
+
+.copyright{
+    text-align: center;
 }
