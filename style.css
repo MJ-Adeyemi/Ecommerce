@@ -292,6 +292,12 @@ body{
     padding: 10px 20px;
 }
 
+.shopnowbutton:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
 .previous{
     text-decoration: none;
     border: none;
@@ -300,6 +306,10 @@ body{
     color: white;
     padding: 30px 15px;
     opacity: 0.4;
+}
+
+.previous:hover{
+    background-color: black;
 }
 
 .next{
@@ -313,6 +323,10 @@ body{
     right: 0px;
 }
 
+.next:hover{
+    background-color: black;
+}
+
 .fashionimages{
     display: flex;
     gap: 20px;
@@ -322,31 +336,41 @@ body{
 .fashionimage1text{
     position: absolute;
     text-align: center;
-    left: 350px;
+    left: 335px;
     bottom: -250px;
     color: white;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .fashionimage2text{
     position: absolute;
     text-align: center;
-    left: 700px;
+    left: 670px;
     bottom: -250px;
     color: white;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .fashionimage3text{
     position: absolute;
     text-align: center;
-    left: 1050px;
+    left: 1045px;
     bottom: -250px;
     color: white;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .mwbfashion{
-    font-family: "Lexend", sans-serif;
-    font-size: larger;
-    font-weight: bold;
+    font-size: x-large;
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+}
+
+.mwbshopnow{
+    font-size: medium;
+    color: gold;
+    text-decoration: underline;
 }
 
 .trendingparent{
@@ -373,6 +397,15 @@ body{
     top: 0px;
 }
 
+.newlista{
+    text-decoration: none;
+    color: black;
+}
+
+.newlist:hover{
+    border-bottom: 3px solid red;
+}
+
 .latestparent{
     display: flex;
     justify-content: center;
@@ -396,15 +429,59 @@ body{
     text-align: center;
 }
 
+.oldprice{
+    color: rgb(135, 115, 5);
+    margin-left: 10px;
+}
+
 .yellowbox{
     display: grid;
     justify-content: center;
     width: 100%;
-    height: 300px;
+    height: 340px;
     background-color: blanchedalmond;
 }
 
+.customer{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: -30px;
+    text-align: center;
+}
+
+.customertext{
+    text-align: center;
+    line-height: 25px;
+    word-spacing: 2px;
+    font-size: medium;
+    margin-bottom: -20px;
+}
+
+.customer-details{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+.designer-name{
+    font-size: small;
+    margin-top: 7px;
+}
+
+.designer-role{
+    font-size: small;
+    font-weight: bold;
+    color: grey;
+}
+
 .yml{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -433,7 +510,7 @@ body{
 
 .latestnewsbox{
     width: 100%;
-    height: 500px;
+    height: 600px;
     background-color: rgb(241, 241, 241);
 }
 
@@ -446,6 +523,40 @@ body{
 
 .latestnews{
     text-align: center;
+    padding-top: 70px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.ftips{
+    font-size: small;
+    color: grey;
+}
+
+.vogue{
+    font-size: large;
+    font-weight: bold;
+    word-spacing: 2px;
+    color: black;
+    text-decoration: none;
+}
+
+.consectetur{
+    font-size: small;
+    color: grey;
+    line-height: 22px;
+}
+
+.readmore{
+    font-size: small;
+    font-weight: bold;
+    color: black;
+}
+
+.readmore:hover{
+    font-size: 14px;
 }
 
 .deliveryparentbox{
