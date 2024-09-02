@@ -246,6 +246,8 @@ body{
     display: block;
 }
 
+/* heru-page */
+
 .herutext{
     position: absolute;
     display: flex;
@@ -327,6 +329,9 @@ body{
 .next:hover{
     background-color: black;
 }
+
+
+/* fashion */
 
 .fashionimages{
     display: flex;
@@ -411,6 +416,8 @@ body{
     text-decoration: underline;
 }
 
+/* trending */
+
 .trendingparent{
     display: flex;
     gap: 550px;
@@ -478,28 +485,60 @@ body{
         color: red;
     }
 
-    .hlogoflex{
+    .hlogoflex1{
         display: block;
-        
     }
 }
 
-.hlogoflex{
+.hlogoflex1{
     position: absolute;
-    margin-left: 35px;
+    margin-left: 55px;
     margin-top: -120px;
     display: none;
-    
 }
 
-.cartlogo{
+.cartlogo1{
     text-decoration: none;
     color: black;
     width: 60px;
-    height: 40px;
-    padding: 15px;
+    padding: 12px;
     background-color: white;
     /* border: 1px solid black; */
+}
+
+.cartlogo1:hover{
+    color: white;
+    background-color: red;
+}
+
+.cartlogo2{
+    text-decoration: none;
+    color: black;
+    width: 60px;
+    padding: 12px;
+    background-color: white;
+    margin-left: -4px;
+    /* border: 1px solid black; */
+}
+
+.cartlogo2:hover{
+    color: white;
+    background-color: red;
+}
+
+.cartlogo3{
+    text-decoration: none;
+    color: black;
+    width: 60px;
+    padding: 12px;
+    background-color: white;
+    margin-left: -4px;
+    /* border: 1px solid black; */
+}
+
+.cartlogo3:hover{
+    color: white;
+    background-color: red;
 }
 
 .latestcontainer2{
@@ -516,6 +555,17 @@ body{
     .product{
         color: red;
     }
+
+    .hlogoflex2{
+        display: block;
+    }
+}
+
+.hlogoflex2{
+    position: absolute;
+    margin-left: 55px;
+    margin-top: -120px;
+    display: none;
 }
 
 .latestcontainer3{
@@ -532,6 +582,17 @@ body{
     .product{
         color: red;
     }
+
+    .hlogoflex3{
+        display: block;
+    }
+}
+
+.hlogoflex3{
+    position: absolute;
+    margin-left: 55px;
+    margin-top: -120px;
+    display: none;
 }
 
 .latestcontainer4{
@@ -548,6 +609,17 @@ body{
     .product{
         color: red;
     }
+
+    .hlogoflex4{
+        display: block;
+    }
+}
+
+.hlogoflex4{
+    position: absolute;
+    margin-left: 55px;
+    margin-top: -120px;
+    display: none;
 }
 
 .oldprice{
@@ -562,6 +634,8 @@ body{
     height: 340px;
     background-color: blanchedalmond;
 }
+
+/* customer-details */
 
 .customer{
     font-size: 25px;
@@ -597,6 +671,8 @@ body{
     font-weight: bold;
     color: grey;
 }
+
+/* you-may-like */
 
 .yml{
     font-size: 25px;
@@ -639,6 +715,61 @@ body{
     .ymlproduct{
         color: red;
     }
+
+    .hlogoflex11{
+        display: block;
+    }
+}
+
+.hlogoflex11{
+    position: absolute;
+    margin-left: 55px;
+    margin-top: -120px;
+    display: none;
+}
+
+.cartlogo11{
+    text-decoration: none;
+    color: black;
+    width: 60px;
+    padding: 12px;
+    background-color: white;
+    /* border: 1px solid black; */
+}
+
+.cartlogo11:hover{
+    color: white;
+    background-color: red;
+}
+
+.cartlogo22{
+    text-decoration: none;
+    color: black;
+    width: 60px;
+    padding: 12px;
+    background-color: white;
+    margin-left: -4px;
+    /* border: 1px solid black; */
+}
+
+.cartlogo22:hover{
+    color: white;
+    background-color: red;
+}
+
+.cartlogo33{
+    text-decoration: none;
+    color: black;
+    width: 60px;
+    padding: 12px;
+    background-color: white;
+    margin-left: -4px;
+    /* border: 1px solid black; */
+}
+
+.cartlogo33:hover{
+    color: white;
+    background-color: red;
 }
 
 .ymlcontainer2{
@@ -655,6 +786,17 @@ body{
     .ymlproduct{
         color: red;
     }
+
+    .hlogoflex22{
+        display: block;
+    }
+}
+
+.hlogoflex22{
+    position: absolute;
+    margin-left: 55px;
+    margin-top: -120px;
+    display: none;
 }
 
 .ymlcontainer3{
@@ -671,6 +813,17 @@ body{
     .ymlproduct{
         color: red;
     }
+
+    .hlogoflex33{
+        display: block;
+    }
+}
+
+.hlogoflex33{
+    position: absolute;
+    margin-left: 55px;
+    margin-top: -120px;
+    display: none;
 }
 
 .ymlcontainer4{
@@ -687,7 +840,20 @@ body{
     .ymlproduct{
         color: red;
     }
+
+    .hlogoflex44{
+        display: block;
+    }
 }
+
+.hlogoflex44{
+    position: absolute;
+    margin-left: 55px;
+    margin-top: -120px;
+    display: none;
+}
+
+/* latest-news */
 
 .latestnewsbox{
     width: 100%;
@@ -781,6 +947,8 @@ body{
     color: grey;
 }
 
+/* deliverysection */
+
 .deliverybox{
     border-right: 1px solid rgb(246, 241, 241);
     padding-right: 50px;
@@ -795,6 +963,8 @@ body{
     border-right: 1px solid rgb(246, 241, 241);
     padding-right: 50px;
 }
+
+/* footer */
 
 .blackbox{
     background-color: black;
@@ -907,6 +1077,8 @@ body{
     text-decoration: underline;
 }
 
+/* copyright */
+
 .copyright{
     text-align: center;
     color: rgb(169, 167, 167);
@@ -917,4 +1089,30 @@ body{
 
 .cri{
     color: red;
+}
+
+/* media-queries */
+
+/* On screens that are 992px wide or less, the background color is blue */
+@media screen and (max-width: 1500px) {
+  .previous{
+    display: none;
+  }
+
+  .next{
+    display: none;
+  }
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 1200px) {
+    
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+  /* body {
+    background-color: olive;
+    color: white;
+  } */
 }
