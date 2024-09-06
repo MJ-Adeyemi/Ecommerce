@@ -6,6 +6,8 @@
 body{
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: auto;
 }
 
 .nav1left{
@@ -68,6 +70,8 @@ body{
     margin-top: -8px;
     gap: 500px;
     justify-content: center;
+    width: 100%;
+    height: auto;
 }
 
 .hr1{
@@ -130,6 +134,8 @@ body{
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    width: 100%;
+    height: auto;
     display: flex;
     justify-content: center;
     gap: 60px;
@@ -137,6 +143,11 @@ body{
     padding: 10px;
     z-index: 1;
     box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+}
+
+.pareenticonwidth{
+    width: 100%;
+    height: auto;
 }
 
 .saleparent{
@@ -256,6 +267,10 @@ body{
     gap: 60%;
     top: 50%;
     font-size: 18px;
+}
+
+.heropicsub{
+    display: none;
 }
 
 .fashionbox{
@@ -1097,6 +1112,9 @@ body{
     display: none;
     background-color: rgb(41, 39, 39);
     font-size: small;
+    z-index: 1;
+    width: 100%;
+    height: auto;
 }
 
 .menu{
@@ -1248,15 +1266,60 @@ body{
         display: none;
     }
 
-    .heropic{
-        object-fit: contain;
+    .fashionbox{
+        text-align: center;
+        margin-left: -300px;
+        margin-top: -85px;
+        line-height: 30px;
+    }
+
+    .latestparent{
+        display: block;
+    }
+
+    .ymlparent{
+        width: 768px;
+    }
+
+    .fashionimages{
+        display: block;
+        /* width: 768px;
+        margin: none;
+        padding: none; */
+        /* gap: 20px; */
+        /* margin: 0px 235px; */
+    }
+
+    .trending{
+        display: flex;
+        justify-content: center;
     }
 
     .fashionbox{
-    text-align: center;
-    margin-left: -300px;
-    margin-top: -85px;
-    line-height: 30px;
+        width: 100%;
+        height: auto;
+    }
+
+    .heropic{
+        display: none;
+    }
+
+    .heropicsub{
+        display: block;
+    }
+
+    .subscribediv{
+        display: grid;
+    }
+
+    .blackbox{
+        height: auto;
+        width: 100%;
+    }
+
+    .deliveryparentbox{
+        display: grid;
+        height: auto;
     }
 }
 
