@@ -145,7 +145,7 @@ body{
     box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
 }
 
-.pareenticonwidth{
+.parenticonwidth{
     width: 100%;
     height: auto;
 }
@@ -1110,7 +1110,7 @@ body{
 
 .menudropdown{
     display: none;
-    background-color: rgb(41, 39, 39);
+    background-color: rgb(56, 54, 54);
     font-size: small;
     z-index: 1;
     width: 100%;
@@ -1226,10 +1226,10 @@ body{
     }
 
     .fashionbox{
-    text-align: center;
-    margin-left: -300px;
-    margin-top: -85px;
-    line-height: 30px;
+        text-align: center;
+        margin-left: -300px;
+        margin-top: -85px;
+        line-height: 30px;
     }
 
     .nav2text{
@@ -1240,7 +1240,7 @@ body{
         display: block;
     }
 
-    .menutoflex{gap: inherit;
+    .menutoflex{
         z-index: 1;
     }
 
@@ -1266,6 +1266,10 @@ body{
         display: none;
     }
 
+    .box11{
+        display: none;
+    }
+
     .fashionbox{
         text-align: center;
         margin-left: -300px;
@@ -1278,7 +1282,7 @@ body{
     }
 
     .ymlparent{
-        width: 768px;
+        width: 100%;
     }
 
     .fashionimages{
@@ -1321,11 +1325,29 @@ body{
         display: grid;
         height: auto;
     }
+
+    .trendingparent{
+        display: grid;
+        gap: 15px;
+    }
+
+    .formensec{
+        display: flex;
+        justify-content: center;
+    }
+
+    .links-to-remove{
+        display: none;
+    }
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 375px) {
   .nav1parent{
         display: none;
+    }
+
+    .nav2parent{
+        width: 100%;
     }
 
     .heropic{
@@ -1333,9 +1355,24 @@ body{
     }
 
     .fashionbox{
-    text-align: center;
-    margin-left: -200px;
-    margin-top: -130px;
-    line-height: 30px;
+        text-align: center;
+        margin-left: -200px;
+        margin-top: -130px;
+        line-height: 30px;
+    }
+
+    .fashionbox{
+        width: 100%;
+        height: auto;
+    }
+
+    .blackbox{
+        height: auto;
+        width: 100%;
+    }
+
+    .deliveryparentbox{
+        display: grid;
+        height: auto;
     }
 }
